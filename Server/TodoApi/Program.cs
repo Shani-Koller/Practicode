@@ -62,5 +62,5 @@ app.MapDelete("/items/{id}", async (int Id, ToDoDbContext Db) =>
     }
     return Results.NotFound();
 });
-app.MapGet("/",()=> "TodoApi is running!")
+app.MapGet("/",()=> "TodoApi is running!");
 app.Run();
